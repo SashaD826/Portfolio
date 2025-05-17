@@ -52,9 +52,9 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Goal:** Get statistical data for multiples positions. Can be used for Machine Learning, for example
 
-  -SQL code: 
+  -Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
-  -Power BI Dashboard: 
+  **Results:** A Dashboard with multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job itself
 # Contacts
 LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk-13a331355
 
