@@ -52,6 +52,8 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Goal:** Get statistical data for multiples positions. Can be used for Machine Learning, for example.
 
+  -Python Code: [`IT Salaries Python`](
+
   -Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
   **Results:** A Dashboard with multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job itself.
