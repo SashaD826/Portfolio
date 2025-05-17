@@ -9,7 +9,7 @@ Each project reflects my skills in using various tools and instruments to create
 ## Technical skills:
 - SQL (postgreSQL, MySQL)
 - Python (Pandas, matplotlib)
-- Power BI
+- Power BI (DAX, PowerQuery)
 - Excel
 - MS PowerPoint, Word
 
