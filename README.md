@@ -17,9 +17,9 @@ Each project reflects my skills in using various tools and instruments to create
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
 
 ### Bike Sales Breakdown
-  **Description:** The dataset contains information about bike store sales over a month.
+  **Description:** The dataset captures detailed sales data from a bike store over a one-month period, encompassing key metrics such as product descriptions, revenue, profits, production cost, customer details and transaction dates.
   
-  **Problem:** A certain amount of data cleaning is required. 
+  **Problem:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
   
   **Goal:** To analyse the sales history of the store and extract insights on its performance, show crucial KPIs, search for potential improvements.
   
@@ -35,9 +35,9 @@ Here, I share a couple of projects where I used various methods to uncover key d
  ### IBM Employees Evaluation
   **Description:** Dataset contains information about IBM Employees: their Job Satisfaction, Education Level, Hourly Rate, Experience, etc.
 
-  **Problem:** Complex Dataset, some columns are indexed, and do not contain readable data.
+  **Problem:** Complex Dataset, some columns are indexed, instead of containing readable data.
 
-  **Goal:** A comparison of IBM employees' performance, finding trends.
+  **Goal:** Analyse IBM employees' performance, identify key trends to optimize workforce productivity.
 
   -SQl code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
@@ -46,9 +46,9 @@ Here, I share a couple of projects where I used various methods to uncover key d
   **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
 
  ### IT salaries all over the world
-  **Description:** This simple yet useful dataset shows salaries for different employment types, positions in numerous countries.
+  **Description:** This simple yet useful dataset shows salaries for different employment types and positions in numerous countries.
 
-  **Problem:** Dataset is enormous. Values cannot be objectively compared just like that, slicers are needed.
+  **Problem:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
 
   **Goal:** Get statistical data for multiples positions. Can be used for Machine Learning, for example.
 
