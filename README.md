@@ -33,28 +33,28 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Results:** Key data to optimize efficiency, including revenue trend over time, a histogram of typical order sizes, and detailed breakdowns by country, region, and product, etc.
  ### IBM Employees Evaluation
-  **Description:** Dataset contains information about IBM Employees: their job satisfaction, Education level, Hourly rate, Experience, etc
+  **Description:** Dataset contains information about IBM Employees: their job satisfaction, Education level, Hourly rate, Experience, etc.
 
-  **Problem:** Complex Dataset, some columns are indexed, and do not contain readable data
+  **Problem:** Complex Dataset, some columns are indexed, and do not contain readable data.
 
-  **Goal:** A comparison of IBM employees' performance, finding trends
+  **Goal:** A comparison of IBM employees' performance, finding trends.
 
   -SQl code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
   -Power BI Dashboard: [`IBM Employees Power BI`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
 
-  **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience
+  **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
 
  ### IT salaries all over the world
-  **Description:** This simple yet useful dataset shows salaries for different employment types, positions in numerous countries
+  **Description:** This simple yet useful dataset shows salaries for different employment types, positions in numerous countries.
 
-  **Problem:** Dataset is enormous. Values cannot be objectively compared just like that, slicers are needed
+  **Problem:** Dataset is enormous. Values cannot be objectively compared just like that, slicers are needed.
 
-  **Goal:** Get statistical data for multiples positions. Can be used for Machine Learning, for example
+  **Goal:** Get statistical data for multiples positions. Can be used for Machine Learning, for example.
 
   -Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
-  **Results:** A Dashboard with multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job itself
+  **Results:** A Dashboard with multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job itself.
 # Contacts
 LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk-13a331355
 
