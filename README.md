@@ -33,7 +33,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Results:** Key data to optimize efficiency, including revenue trend over time, a histogram of typical order sizes, and detailed breakdowns by country, region, and product, etc.
  ### IBM Employees Evaluation
-  **Description:** Dataset contains information about IBM Employees: their job satisfaction, Education level, Hourly rate, Experience, etc.
+  **Description:** Dataset contains information about IBM Employees: their Job Satisfaction, Education Level, Hourly Rate, Experience, etc.
 
   **Problem:** Complex Dataset, some columns are indexed, and do not contain readable data.
 
@@ -52,7 +52,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Goal:** Get statistical data for multiples positions. Can be used for Machine Learning, for example.
 
-  -Python Code: [`IT Salaries Python`](
+  -Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
 
   -Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
