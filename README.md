@@ -58,5 +58,5 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Results:** A Dashboard with key statistical indicators and multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job title itself.
 # Contacts
-LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk-13a331355
+LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk
 
