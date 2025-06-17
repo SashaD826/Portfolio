@@ -65,9 +65,9 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Goal:** To create the graph with daily GOOG stock price, and combine it with 50-day moving average and a P/E ratio.
 
-  -SQL Code: [`GOOG stock SQL`]
+  -SQL Code: [`GOOG stock SQL`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
 
-  -Power BI Dashboard: [`GOOG stock Power BI`]
+  -Power BI Dashboard: [`GOOG stock Power BI`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_bi.pbix)
 
   **Results:** The Power BI dashboard leverages fundamental and technical indicators to empower informed investment decisions for GOOG stock.
 # Contacts
