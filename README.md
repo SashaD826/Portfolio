@@ -57,6 +57,19 @@ Here, I share a couple of projects where I used various methods to uncover key d
   -Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
   **Results:** A Dashboard with key statistical indicators and multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job title itself.
+
+   ### Alphabet Stock evaluation
+  **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
+
+  **Problem:** P/E ratios had to be data scrapped and added manually
+
+  **Goal:** To create the graph with daily GOOG stock price, and combine it with 50-day moving average and a P/E ratio.
+
+  -SQL Code: [`GOOG stock SQL`]
+
+  -Power BI Dashboard: [`GOOG stock Power BI`]
+
+  **Results:** The Power BI dashboard leverages fundamental and technical indicators to empower informed investment decisions for GOOG stock.
 # Contacts
 LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk
 
