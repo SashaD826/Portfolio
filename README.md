@@ -12,6 +12,7 @@ Each project reflects my skills in using various tools and instruments to create
 - Power BI (DAX, PowerQuery)
 - Excel
 - MS PowerPoint, Word
+- Origin
 
 ## Portfolio projects
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
