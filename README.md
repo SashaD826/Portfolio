@@ -10,8 +10,7 @@ Each project reflects my skills in using various tools and instruments to create
 - SQL (postgreSQL, MySQL)
 - Python (Pandas, matplotlib)
 - Power BI (DAX, PowerQuery)
-- Excel
-- MS PowerPoint, Word
+- MS Excel, PowerPoint, Word
 - Origin
 
 ## Portfolio projects
