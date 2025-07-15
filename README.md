@@ -1,4 +1,4 @@
-# Data Analyst Portfolio, Oleksandr Detsyk
+# Data Nerd Portfolio, Oleksandr Detsyk
 ## About me
 Greetings! 
 I am Oleksandr. With a background in organic chemistry, I’ve used data to achieve precise experimental goals, from analyzing molecular structures to optimizing reaction conditions. This scientific training sharpened my analytical thinking, problem-solving, and ability to extract insights from complex datasets. Working with spectroscopic data and metrics like yield and purity deepened my knack for spotting patterns and ensuring accuracy. Transitioning to data analytics, I now channel this analytical mindset into transforming business data into clear, actionable insights.
