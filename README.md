@@ -21,9 +21,9 @@ Here, I share a couple of projects where I used various methods to uncover key d
    
    **Problem:** The dataset is relatively large, the same book can have variations in its book titles.
 
-   **Goal:** To return a list of recommended books according to the user's favorite book, regargless of typos or absent parts of a book title.
+   **Goal:** A user-friendly Python application that delivers personalized book recommendations based on a user's favorite book. The highly tunable system features robust error handling for invalid inputs.
 
-   - Python code: [`Book Recommender`]
+   - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_rec2.ipynb)
    
    **Results:** A user-friendly application that recommends books to a users according to his preferences.
 ### Bike Sales Breakdown
