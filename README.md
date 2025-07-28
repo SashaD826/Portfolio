@@ -23,7 +23,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
    **Goal:** A user-friendly Python application that delivers personalized book recommendations based on a user's favorite book. The highly tunable system features robust error handling for invalid inputs.
 
-   - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_rec2.ipynb)
+   - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
    
    **Results:** A user-friendly application that recommends books to a users according to his preferences.
 ### Bike Sales Breakdown
