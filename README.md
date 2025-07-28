@@ -16,6 +16,16 @@ Each project reflects my skills in using various tools and instruments to create
 ## Portfolio projects
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
 
+### Book Recommender
+  **Description:** The Book Recommender is a Python-based application that suggests books based on a user's favorite book, using a relatively large database of books and their ratings. It analyzes book attributes like title, author and returns a list of recommended books that were chosen according to their correlation with the user's favorite book. The system handles errors for invalid inputs and typos.
+   
+   **Problem:** The dataset is relatively large, the same book can have variations in its book titles.
+
+   **Goal:** To return a list of recommended books according to the user's favorite book, regargless of typos or absent parts of a book title.
+
+   - Python code: [`Book Recommender`]
+   
+   **Results:** A user-friendly application that recommends books to a users according to his preferences.
 ### Bike Sales Breakdown
   **Description:** The dataset captures detailed sales data from a bike store over a one-month period, encompassing key metrics such as product descriptions, revenue, profits, production cost, customer details and transaction dates.
   
@@ -37,7 +47,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Problem:** Complex Dataset, some columns are indexed, instead of containing readable data.
 
-  **Goal:** Analyse IBM employees' performance, identify key trends to optimize workforce productivity.
+  **Goal:** To analyse IBM employees' performance, identify key trends to optimize workforce productivity.
 
   -SQl code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
@@ -50,7 +60,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Problem:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
 
-  **Goal:** Get statistical data for multiples positions. Can be used for Machine Learning, for example.
+  **Goal:** To get statistical data for multiples positions. Can be used for Machine Learning, for example.
 
   -Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
 
