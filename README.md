@@ -1,4 +1,4 @@
-# Data Nerd Portfolio, Oleksandr Detsyk
+# Data Analyst Portfolio, Oleksandr Detsyk
 ## About me
 Greetings! 
 I am Oleksandr. With a background in organic chemistry, I’ve used data to achieve precise experimental goals, from analyzing molecular structures to optimizing reaction conditions. This scientific training sharpened my analytical thinking, problem-solving, and ability to extract insights from complex datasets. Working with spectroscopic data and metrics like yield and purity deepened my knack for spotting patterns and ensuring accuracy. Transitioning to data analytics, I now channel this analytical mindset into transforming business data into clear, actionable insights.
@@ -72,7 +72,8 @@ Here, I share a couple of projects where I used various methods to uncover key d
   -Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
   **Results:** A Dashboard with key statistical indicators and multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job title itself.
-
+  
+  **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/saurabhbadole/latest-data-science-job-salaries-2024)
    ### Alphabet Stock Evaluation
   **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
 
