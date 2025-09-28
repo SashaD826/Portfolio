@@ -86,6 +86,8 @@ Here, I share a couple of projects where I used various methods to uncover key d
   -Power BI Dashboard: [`GOOG stock Power BI`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_bi.pbix)
 
   **Results:** The Power BI dashboard leverages fundamental and technical indicators to empower informed investment decisions for GOOG stock.
+
+  **Data Sources:** [Link to Kaggle](https://www.kaggle.com/datasets/henryshan/google-stock-price), [Link to macrotrends](https://www.macrotrends.net/stocks/charts/GOOG/alphabet/pe-ratio)
 # Contacts
 LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk
 
