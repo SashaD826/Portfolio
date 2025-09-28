@@ -58,7 +58,8 @@ Here, I share a couple of projects where I used various methods to uncover key d
   -Power BI Dashboard: [`IBM Employees Power BI`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
 
   **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
-
+  
+  **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
  ### IT salaries all over the world
   **Description:** This simple yet useful dataset shows salaries for different employment types and positions in numerous countries.
 
