@@ -44,6 +44,8 @@ Here, I share a couple of projects where I used various methods to uncover key d
   -Power BI Dashboard: [`Bike Sales Power BI`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_bi.pbix)
 
   **Results:** Key data to optimize efficiency, including revenue trend over time, a histogram of typical order sizes, and detailed breakdowns by week day, country, region, and product.
+
+  **Data Source:**[Link to Kaggle](https://www.kaggle.com/datasets/ratnarohith/uncleaned-bike-sales-data/data)
  ### IBM Employees Evaluation
   **Description:** Dataset contains information about IBM Employees: their Job Satisfaction, Education Level, Hourly Rate, Experience, etc.
 
