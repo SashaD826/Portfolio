@@ -26,6 +26,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
    - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
    
    **Results:** A user-friendly application that recommends books to a users according to his preferences.
+   
    **Data Source:** ['Link'](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
 ### Bike Sales Breakdown
   **Description:** The dataset captures detailed sales data from a bike store over a one-month period, encompassing key metrics such as product descriptions, revenue, profits, production cost, customer details and transaction dates.
