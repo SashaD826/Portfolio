@@ -17,7 +17,7 @@ Each project reflects my skills in using various tools and instruments to create
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
 
 ### Book Recommender
-  **Description:** The Book Recommender is a Python-based application that suggests books based on a user's favorite book, using a relatively large database of books and their ratings. It analyzes book attributes like title, author and returns a list of recommended books that were chosen according to their correlation with the user's favorite book. The system handles errors for invalid inputs and typos.
+  **Description:** The Book Recommender is a Python-based application that suggests books based on a user's favorite book, using a relatively large database of books and their ratings. It analyzes book attributes like title, author and returns a list of recommended books that were chosen according to their correlation with the user's favorite book. The system handles errors for invalid inputs, incomplete book titles and typos.
    
    **Problem:** The dataset is relatively large, the same book can have variations in its book titles.
 
