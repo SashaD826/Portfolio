@@ -85,7 +85,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
   **Results:** Goal achieved, but to make the code even better API should be used to fully automate the process.
 
-  **Data Source:** [`Portfolio Composition CSV`](https://github.com/SashaD826/Portfolio/blob/main/etf_portfolio_rebalancing.csv)
+  **Data Source:** [Portfolio Composition CSV](https://github.com/SashaD826/Portfolio/blob/main/etf_portfolio_rebalancing.csv)
    ### Alphabet Stock Evaluation
   **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
 
