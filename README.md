@@ -81,7 +81,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
 
    **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
 
-  -Python code: [`Portfolio Rebalancing Python`]
+  -Python code: [`Portfolio Rebalancing Python`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
 
   **Results:** Goal achieved, but to make the code even better API should be used to fully automate the process.
 
