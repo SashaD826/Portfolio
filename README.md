@@ -74,6 +74,18 @@ Here, I share a couple of projects where I used various methods to uncover key d
   **Results:** A Dashboard with key statistical indicators and multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job title itself.
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/saurabhbadole/latest-data-science-job-salaries-2024)
+   ### Automated Portfolio Rebalancing
+   **Description:** This simple, but useful Python code helps with rebalancing the portfolio: calculates number of shares that has to be purchased, and the amount that has to be spent per position.
+
+   **Problem:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
+
+   **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
+
+  -Python code: [`Portfolio Rebalancing Python`]
+
+  **Results:** Goal achieved, but to make the code even better API should be used to fully automate the process.
+
+  **Data Source:** [`Portfolio Composition CSV`]
    ### Alphabet Stock Evaluation
   **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
 
