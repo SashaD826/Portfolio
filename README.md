@@ -1,10 +1,9 @@
 # Data Analyst Portfolio, Oleksandr Detsyk
 ## About me
 Greetings! 
-I am Oleksandr. With a background in organic chemistry, I’ve used data to achieve precise experimental goals, from analyzing molecular structures to optimizing reaction conditions. This scientific training sharpened my analytical thinking, problem-solving, and ability to extract insights from complex datasets. Working with spectroscopic data and metrics like yield and purity deepened my knack for spotting patterns and ensuring accuracy. Transitioning to data analytics, I now channel this analytical mindset into transforming business data into clear, actionable insights.
-
-This portfolio showcases my versatile expertise in data cleaning, data analysis, and data visualization, demonstrating my ability to transform raw data into meaningful, actionable insights. It features a collection of diverse projects that highlight my proficiency in uncovering critical business insights through meticulous data processing and strategic analysis. 
-Each project reflects my skills in using various tools and instruments to create clear, impactful visualizations and track key performance indicators (KPIs).
+I am Oleksandr. A data analyst with extensive experience in data analysis, data analytics and finance.
+This portfolio showcases my versatile expertise in data cleaning, data analysis, quantatitive analysis, and data visualization, demonstrating my ability to transform raw data into meaningful, actionable insights. It features a collection of diverse projects that highlight my proficiency in uncovering critical business insights through meticulous data processing and strategic analysis. 
+Each project reflects my skills in using various tools and instruments to create clear, impactful visualizations and track key performance indicators (KPIs) and create simulations that can improve business efficiency.
 
 ## Technical skills
 - SQL (postgreSQL, MySQL)
