@@ -6,11 +6,12 @@ This portfolio showcases my versatile expertise in data cleaning, data analysis,
 Each project reflects my skills in using various tools and instruments to create clear, impactful visualizations, track key performance indicators (KPIs) and create simulations that improve business efficiency.
 
 ## Technical skills
-- SQL (postgreSQL, MySQL)
-- Python (Pandas, matplotlib)
-- Power BI (DAX, PowerQuery)
+- SQL 
+- Python 
+- Power BI 
 - MS Excel
 - Origin
+- Keboola
 
 ## Portfolio projects
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
