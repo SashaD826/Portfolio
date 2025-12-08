@@ -3,7 +3,7 @@
 Greetings! 
 I am Oleksandr. A data analyst with extensive experience in data analysis, data analytics and finance.
 This portfolio showcases my versatile expertise in data cleaning, data analysis, quantatitive analysis, and data visualization, demonstrating my ability to transform raw data into meaningful, actionable insights. It features a collection of diverse projects that highlight my proficiency in uncovering critical business insights through meticulous data processing and strategic analysis. 
-Each project reflects my skills in using various tools and instruments to create clear, impactful visualizations and track key performance indicators (KPIs) and create simulations that can improve business efficiency.
+Each project reflects my skills in using various tools and instruments to create clear, impactful visualizations, track key performance indicators (KPIs) and create simulations that improve business efficiency.
 
 ## Technical skills
 - SQL (postgreSQL, MySQL)
