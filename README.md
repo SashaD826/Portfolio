@@ -18,7 +18,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 ### 📕 Book Recommender
   **Description:** The Book Recommender is a Python-based application that suggests books based on a user's favorite book, using a relatively large database of books and their ratings. It analyzes book attributes like title, author and returns a list of recommended books that were chosen according to their correlation with the user's favorite book. The system handles errors for invalid inputs, incomplete book titles and typos.
    
-   **Problem:** The dataset is relatively large, the same book can have variations in its book titles.
+   **Obstacles:** The dataset is relatively large, the same book can have variations in its book titles.
 
    **Goal:** A user-friendly Python application that delivers personalized book recommendations based on a user's favorite book. The highly tunable system features robust error handling for invalid inputs.
 
@@ -30,7 +30,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 ### 🚲 Bike Sales Breakdown
   **Description:** The dataset captures detailed sales data from a bike store over a one-month period, encompassing key metrics such as product descriptions, revenue, profits, production cost, customer details and transaction dates.
   
-  **Problem:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
+  **Obstacles:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
   
   **Goal:** To analyse the sales history of the store and extract insights on its performance, show crucial KPIs, search for potential improvements.
   
@@ -48,7 +48,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
  ### 🧑‍💻 IBM Employees Evaluation
   **Description:** Dataset contains information about IBM Employees: their Job Satisfaction, Education Level, Hourly Rate, Experience, etc.
 
-  **Problem:** Complex Dataset, some columns are indexed, instead of containing readable data.
+  **Obstacles:** Complex Dataset, some columns are indexed, instead of containing readable data.
 
   **Goal:** To analyse IBM employees' performance, identify key trends to optimize workforce productivity.
 
@@ -62,7 +62,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
  ### 💰🌎 IT salaries all over the world
   **Description:** This simple yet useful dashboard that shows salaries for different employment types and positions in numerous countries.
 
-  **Problem:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
+  **Obstacles:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
 
   **Goal:** To get statistical data for multiples positions. Can be used for Machine Learning, for example.
 
@@ -76,7 +76,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    ### 📊 Automated Portfolio Rebalancing
    **Description:** This simple, but useful Python code helps with rebalancing the portfolio: calculates number of shares that has to be purchased, and the amount that has to be spent per position.
 
-   **Problem:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
+   **Obstacles:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
 
    **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
 
@@ -88,7 +88,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    ### 💻🔮💰 Monte Carlo Simulation for a Stock Portfolio
   **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 unique simulation paths are generated.
   
-  **Problem:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
+  **Obstacles:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
   
   **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incurring loss vs. the probability of assets doubling or tripling in value.
 
@@ -100,7 +100,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    ### 📈 📉 Alphabet Stock Evaluation
   **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
 
-  **Problem:** P/E ratios had to be data scrapped and added manually
+  **Obstacles:** P/E ratios had to be data scrapped and added manually
 
   **Goal:** To create the graph with daily GOOG stock price, and combine it with 50-day moving average and a P/E ratio.
 
