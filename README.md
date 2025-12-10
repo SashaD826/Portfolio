@@ -4,7 +4,7 @@ Greetings!
 I am Oleksandr. A data analyst with experience in analytics and finance. I believe in having a wide spectrum of interconnected lattices of knowledge, which is why this portfolio features projects in Data Engineering, Data/BI Analysis, and Quantitative Analysis.
 It proves my proficiency in data cleaning, predictive modeling, and financial forecasting, demonstrating my ability to transform raw data into meaningful insights. Each project reflects my skills in tracking KPIs, creating impactful visualizations, and developing simulations that improve business efficiency.
 
-## Technical skills
+## 🛠️ Technical skills
 - SQL 
 - Python 
 - Power BI 
