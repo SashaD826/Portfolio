@@ -74,7 +74,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
   **Results:** A Dashboard with key statistical indicators and multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job title itself.
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/saurabhbadole/latest-data-science-job-salaries-2024)
-   ### Automated Portfolio Rebalancing
+   ### 📊 Automated Portfolio Rebalancing
    **Description:** This simple, but useful Python code helps with rebalancing the portfolio: calculates number of shares that has to be purchased, and the amount that has to be spent per position.
 
    **Problem:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
