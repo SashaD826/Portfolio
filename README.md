@@ -62,7 +62,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
  ### 💰🌎 IT salaries all over the world
-  **Description:** This simple yet useful dataset shows salaries for different employment types and positions in numerous countries.
+  **Description:** This simple yet useful dashboard that shows salaries for different employment types and positions in numerous countries.
 
   **Problem:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
 
