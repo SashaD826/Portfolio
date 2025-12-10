@@ -12,7 +12,7 @@ It proves my proficiency in data cleaning, predictive modeling, and financial fo
 - Origin
 - Keboola
 
-[![My Skills](https://skillicons.dev/icons?i=mysql,postgres,py)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=mysql,postgres,py,excel)](https://skillicons.dev)
 
 ## Portfolio projects
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
