@@ -5,14 +5,13 @@ I am Oleksandr. A data analyst with experience in analytics and finance. I belie
 It proves my proficiency in data cleaning, predictive modeling, and financial forecasting, demonstrating my ability to transform raw data into meaningful insights. Each project reflects my skills in tracking KPIs, creating impactful visualizations, and developing simulations that improve business efficiency.
 
 ## 🛠️ Technical skills
-- SQL 
+- PostgreSQL
+- MySQL
+- Snowflake 
 - Python 
 - Power BI 
-- MS Excel
-- Origin
+- Excel
 - Keboola
-
-[![My Skills](https://skillicons.dev/icons?i=mysql,postgres,py,excel)](https://skillicons.dev)
 
 ## Portfolio projects
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
