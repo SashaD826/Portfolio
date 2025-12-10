@@ -6,10 +6,10 @@ I am Oleksandr, a data analyst with experience in data analytics and finance. I 
 ## 🛠️ Technical skills
 - PostgreSQL
 - MySQL
-- Snowflake 
+- Snowflake
+- Excel
 - Python 
 - Power BI 
-- Excel
 - Keboola
 
 ## Portfolio projects
