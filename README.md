@@ -87,12 +87,12 @@ Here, I share a couple of projects where I used various methods to uncover key d
   **Results:** Goal achieved, but to make the code even better API should be used to fully automate the process.
 
   **Data Source:** [Portfolio Composition CSV](https://github.com/SashaD826/Portfolio/blob/main/etf_portfolio_rebalancing.csv)
-   ### Monte Carlo Simulation for a Stock Portfolio
-  **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 simulations are generated.
+   ### 💻🔮💰 Monte Carlo Simulation for a Stock Portfolio
+  **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 unique simulation paths are generated.
   
   **Problem:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
   
-  **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incuring loss vs. the probability of assets doubling or tripling in value.
+  **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incurring loss vs. the probability of assets doubling or tripling in value.
 
   - Python code[`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
 
