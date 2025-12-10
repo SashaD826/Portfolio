@@ -12,7 +12,7 @@ It proves my proficiency in data cleaning, predictive modeling, and financial fo
 - Origin
 - Keboola
 
-![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://camo.githubusercontent.com/8849a139746ee5851d881984102d2929345b91541276e3ec6fe74343c23d2016/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d707974686f6e)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 ## Portfolio projects
