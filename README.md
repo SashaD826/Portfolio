@@ -90,14 +90,15 @@ Here, I share a couple of projects where I used various methods to uncover key d
    ### Monte Carlo Simulation for a Stock Portfolio
   **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 simulations are generated.
   
-  **Problem:** Prices of non-US assets have to be converted to USD. The simulation assumes daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
+  **Problem:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
   
-  **Goal:** To forecast the potential value of the portfolio over a period of 10 years. To calculate the probability of incuring loss vs. the probability of assets doubling or tripling in value.
+  **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incuring loss vs. the probability of assets doubling or tripling in value.
 
   - Python code[`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
 
-  **Result:** The Mean and Median portfolio values are visualized using line chart and histogram, with the histogram illustrating the distribution of outcomes.
-Future Improvements: Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
+  **Result:** The mean (average) and median portfolio values are visualized using a line chart and a histogram, with the histogram illustrating the distribution of outcomes.
+  
+  **Future Improvements:** Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
    ### 📈 📉 Alphabet Stock Evaluation
   **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
 
