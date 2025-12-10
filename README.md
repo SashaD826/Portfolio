@@ -97,7 +97,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Result:** The mean (average) and median portfolio values are visualized using a line chart and a histogram, with the histogram illustrating the distribution of outcomes.
   
   **Future Improvements:** Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
-   ### 📈 📉 Alphabet Stock Evaluation
+   ### 📈📉 Alphabet Stock Evaluation
   **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
 
   **Obstacles:** P/E ratios had to be data scrapped and added manually
