@@ -13,6 +13,7 @@ It proves my proficiency in data cleaning, predictive modeling, and financial fo
 - Keboola
 
 ![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 ## Portfolio projects
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
