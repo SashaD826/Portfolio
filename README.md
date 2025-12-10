@@ -16,7 +16,7 @@ It proves my proficiency in data cleaning, predictive modeling, and financial fo
 ## Portfolio projects
 Here, I share a couple of projects where I used various methods to uncover key data insights. Each showcases my enthusiasm for turning data into clear, impactful solutions.
 
-### Book Recommender
+### 📕 Book Recommender
   **Description:** The Book Recommender is a Python-based application that suggests books based on a user's favorite book, using a relatively large database of books and their ratings. It analyzes book attributes like title, author and returns a list of recommended books that were chosen according to their correlation with the user's favorite book. The system handles errors for invalid inputs, incomplete book titles and typos.
    
    **Problem:** The dataset is relatively large, the same book can have variations in its book titles.
@@ -28,7 +28,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
    **Results:** A user-friendly application that recommends books to a users according to his preferences.
    
    **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
-### Bike Sales Breakdown
+### 🚲 Bike Sales Breakdown
   **Description:** The dataset captures detailed sales data from a bike store over a one-month period, encompassing key metrics such as product descriptions, revenue, profits, production cost, customer details and transaction dates.
   
   **Problem:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
@@ -46,7 +46,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
   **Results:** Key data to optimize efficiency, including revenue trend over time, a histogram of typical order sizes, and detailed breakdowns by week day, country, region, and product.
 
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/ratnarohith/uncleaned-bike-sales-data/data)
- ### IBM Employees Evaluation
+ ### 🧑‍💻 IBM Employees Evaluation
   **Description:** Dataset contains information about IBM Employees: their Job Satisfaction, Education Level, Hourly Rate, Experience, etc.
 
   **Problem:** Complex Dataset, some columns are indexed, instead of containing readable data.
@@ -60,7 +60,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
   **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
- ### IT salaries all over the world
+ ### 💰🌎 IT salaries all over the world
   **Description:** This simple yet useful dataset shows salaries for different employment types and positions in numerous countries.
 
   **Problem:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
@@ -86,7 +86,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
   **Results:** Goal achieved, but to make the code even better API should be used to fully automate the process.
 
   **Data Source:** [Portfolio Composition CSV](https://github.com/SashaD826/Portfolio/blob/main/etf_portfolio_rebalancing.csv)
-   ### Alphabet Stock Evaluation
+   ### 📈 📉 Alphabet Stock Evaluation
   **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
 
   **Problem:** P/E ratios had to be data scrapped and added manually
