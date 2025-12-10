@@ -34,13 +34,13 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Goal:** To analyse the sales history of the store and extract insights on its performance, show crucial KPIs, search for potential improvements.
   
-  -SQL code: [`Bike Sales SQl`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_mysql.sql)
+  - SQL code: [`Bike Sales SQl`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_mysql.sql)
   
-  -Python code: [`Bike Sales Python`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales.ipynb)
+  - Python code: [`Bike Sales Python`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales.ipynb)
   
-  -Excel Worksheet: [`Bike Sales Excel`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_data.xlsx)
+  - Excel Worksheet: [`Bike Sales Excel`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_data.xlsx)
   
-  -Power BI Dashboard: [`Bike Sales Power BI`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_bi.pbix)
+  - Power BI Dashboard: [`Bike Sales Power BI`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_bi.pbix)
 
   **Results:** Key data to optimize efficiency, including revenue trend over time, a histogram of typical order sizes, and detailed breakdowns by week day, country, region, and product.
 
@@ -52,9 +52,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To analyse IBM employees' performance, identify key trends to optimize workforce productivity.
 
-  -SQl code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
+  - SQl code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
-  -Power BI Dashboard: [`IBM Employees Power BI`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
+  - Power BI Dashboard: [`IBM Employees Power BI`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
 
   **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
   
@@ -66,9 +66,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To get statistical data for multiples positions. Can be used for Machine Learning, for example.
 
-  -Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
+  - Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
 
-  -Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
+  - Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
   **Results:** A Dashboard with key statistical indicators and multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job title itself.
   
@@ -80,7 +80,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
    **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
 
-  -Python code: [`Portfolio Rebalancing Python`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
+  - Python code: [`Portfolio Rebalancing Python`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
 
   **Results:** Goal achieved, but to make the code even better API should be used to fully automate the process.
 
@@ -104,9 +104,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To create the graph with daily GOOG stock price, and combine it with 50-day moving average and a P/E ratio.
 
-  -SQL Code: [`GOOG stock SQL`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
+  - SQL Code: [`GOOG stock SQL`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
 
-  -Power BI Dashboard: [`GOOG stock Power BI`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_bi.pbix)
+  - Power BI Dashboard: [`GOOG stock Power BI`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_bi.pbix)
 
   **Results:** The Power BI dashboard leverages fundamental and technical indicators to empower informed investment decisions for GOOG stock.
 
