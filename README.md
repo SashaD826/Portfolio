@@ -94,7 +94,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
   
   **Goal:** To forecast the potential value of the portfolio over a period of 10 years. To calculate the probability of incuring loss vs. the probability of assets doubling or tripling in value.
 
-  - Python code[`Monte Carlo Simulation Python`]
+  - Python code[`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
 
   **Result:** The Mean and Median portfolio values are visualized using line chart and histogram, with the histogram illustrating the distribution of outcomes.
 Future Improvements: Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
