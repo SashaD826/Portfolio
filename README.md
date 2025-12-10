@@ -90,7 +90,7 @@ Here, I share a couple of projects where I used various methods to uncover key d
    ### Monte Carlo Simulation for a Stock Portfolio
   **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 simulations are generated.
   
-  **Problem:** Price of non-US assets have to be converted to USD. The simulation assumes daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
+  **Problem:** Prices of non-US assets have to be converted to USD. The simulation assumes daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
   
   **Goal:** To forecast the potential value of the portfolio over a period of 10 years. To calculate the probability of incuring loss vs. the probability of assets doubling or tripling in value.
 
