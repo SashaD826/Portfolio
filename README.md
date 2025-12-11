@@ -46,6 +46,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Results:** The final report shows crucial business intelligence insights, including revenue trends, a distribution analysis of order sizes (basket size), and revenue segmentation by weekday, region, and product category.
 
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/ratnarohith/uncleaned-bike-sales-data/data)
+  
  ### 🧑‍💻 IBM Employees Evaluation
   **Description:** This project conducts an analysis into IBM HR dataset, tracking varoius metrics of its employees, such as Job Satisfaction, Education Level, Hourly Rates, and Attrition status. The analysis seeks to understand the "Human" side of the data to better manage talent and resources.
 
@@ -60,20 +61,22 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
- ### 💰🌎 IT salaries all over the world
-  **Description:** This simple yet useful dashboard that shows salaries for different employment types and positions in numerous countries.
-
-  **Goal:** To get statistical data for multiples positions. Can be used for Machine Learning, for example.
   
-  **Challenge:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
+ ### 💰🌎 The Global Tech Salary Tracker
+  **Description:** This Power BI dashboard provides a comprehensive visualization of salary distributions across various positions in tech, depending on employment type, seniority level, and location. It aggregates compensation data to offer a clear view of global market rates.
+  
+  **Goal:** To conduct a statistical analysis of compensation data that serves two purposes: providing salary benchmarking for a substantial number of roles and acting as an Exploratory Data Analysis (EDA) foundation for future Machine Learning salary prediction models.
+  
+  **Challenge:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the data.
 
   - Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
 
   - Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
-  **Results:** The analysis uncovered distinct correlations between employee demographics (e.g. Age, Education) and their performance ratings. Power BI dashboard includes a visualization of productivity depends on each factor.
+  **Results:** The dashboard successfully normalizes ingested data, allowing users to identify clear salary trends. It uncovers pay differences based on multiple factors, providing statistically significant insights for market research.
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/saurabhbadole/latest-data-science-job-salaries-2024)
+  
    ### 📊 Tax-Efficient Portfolio Rebalancing Calculator
   **Description:** A Python-based investment tool designed to automate the rebalancing of a stock portfolio while following strict tax-optimization constraints. The tool ingests data about portfolio composition and calculates the optimal purchasing strategy required to realign the portfolio with target asset allocations.
 
@@ -88,6 +91,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Future Improvements:** Plans to integrate with brokerage APIs to automate trade execution.
 
   **Data Source:** [Portfolio Composition CSV](https://github.com/SashaD826/Portfolio/blob/main/etf_portfolio_rebalancing.csv)
+  
    ### 💻🔮💰 Monte Carlo Simulation for a Stock Portfolio
   **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 unique simulation paths are generated.
   
@@ -100,6 +104,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Result:** The mean (average) and median portfolio values are visualized using a line chart and a histogram, with the histogram illustrating the distribution of outcomes.
   
   **Future Improvements:** Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
+  
    ### 📈📉 Alphabet Stock Evaluation
   **Description:** This Power BI dashboard delivers a comprehensive, interactive analysis of Alphabet’s (GOOG) stock performance spanning over two decades. By combining long-term historical data with P/E, the tool is meant to be used for identifying market trends and investment potential over time.
 
@@ -116,6 +121,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Future Improvements:** A specific API should be added to automate the web-scraping process.
 
   **Data Sources:** [Link to Kaggle](https://www.kaggle.com/datasets/henryshan/google-stock-price), [Link to macrotrends](https://www.macrotrends.net/stocks/charts/GOOG/alphabet/pe-ratio)
+  
 # Contacts
 LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk
 
