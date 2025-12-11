@@ -101,7 +101,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To construct a composite visualization that combines technical and fundamental analysis. The primary objective was to overlay the daily stock price with the 50-Day Moving Average and historical P/E Ratios to identify clear patterns of overvaluation or undervaluation.
   
-  **Challenge:** Historical valuation data (P/E ratio) was not readily available in standard stock datasets. To resolve this, I had to scrape it manually.
+  **Challenge:** Historical valuation data (P/E ratio) was not readily available in standard stock datasets. To resolve the problem, I had to scrape it manually.
 
   - SQL Code: [`GOOG stock SQL`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
 
