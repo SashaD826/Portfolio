@@ -18,21 +18,21 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 ### 📕 Book Recommender
   **Description:** The Book Recommender is a Python-based application that suggests books based on a user's favorite book, using a relatively large database of books and their ratings. It analyzes book attributes like title, author and returns a list of recommended books that were chosen according to their correlation with the user's favorite book. The system handles errors for invalid inputs, incomplete book titles and typos.
    
-   **Obstacles:** The dataset is relatively large, the same book can have variations in its book titles.
-
-   **Goal:** A user-friendly Python application that delivers personalized book recommendations based on a user's favorite book. The highly tunable system features robust error handling for invalid inputs.
+  **Goal:** A user-friendly Python application that delivers personalized book recommendations based on a user's favorite book. The highly tunable system features robust error handling for invalid inputs.
+   
+  **Obstacles:** The dataset is relatively large, the same book can have variations in its book titles.
 
    - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
    
-   **Results:** A user-friendly application that recommends books to a users according to his preferences.
+  **Results:** A user-friendly application that recommends books to a users according to his preferences.
    
-   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
+  **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
 ### 🚲 Bike Sales Breakdown
   **Description:** The dataset captures detailed sales data from a bike store over a one-month period, encompassing key metrics such as product descriptions, revenue, profits, production cost, customer details and transaction dates.
   
-  **Obstacles:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
-  
   **Goal:** To analyse the sales history of the store and extract insights on its performance, show crucial KPIs, search for potential improvements.
+  
+  **Obstacles:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
   
   - SQL code: [`Bike Sales SQl`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_mysql.sql)
   
@@ -48,9 +48,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
  ### 🧑‍💻 IBM Employees Evaluation
   **Description:** Dataset contains information about IBM Employees: their Job Satisfaction, Education Level, Hourly Rate, Experience, etc.
 
-  **Obstacles:** Complex Dataset, some columns are indexed, instead of containing readable data.
-
   **Goal:** To analyse IBM employees' performance, identify key trends to optimize workforce productivity.
+  
+  **Obstacles:** Complex Dataset, some columns are indexed, instead of containing readable data.
 
   - SQL code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
@@ -62,9 +62,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
  ### 💰🌎 IT salaries all over the world
   **Description:** This simple yet useful dashboard that shows salaries for different employment types and positions in numerous countries.
 
-  **Obstacles:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
-
   **Goal:** To get statistical data for multiples positions. Can be used for Machine Learning, for example.
+  
+  **Obstacles:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
 
   - Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
 
@@ -74,11 +74,11 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/saurabhbadole/latest-data-science-job-salaries-2024)
    ### 📊 Automated Portfolio Rebalancing
-   **Description:** This simple, but useful Python code helps with rebalancing the portfolio: calculates number of shares that has to be purchased, and the amount that has to be spent per position.
+  **Description:** This simple, but useful Python code helps with rebalancing the portfolio: calculates number of shares that has to be purchased, and the amount that has to be spent per position.
 
-   **Obstacles:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
-
-   **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
+  **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
+   
+  **Obstacles:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
 
   - Python code: [`Portfolio Rebalancing Python`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
 
@@ -88,9 +88,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    ### 💻🔮💰 Monte Carlo Simulation for a Stock Portfolio
   **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 unique simulation paths are generated.
   
-  **Obstacles:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
-  
   **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incurring loss vs. the probability of assets doubling or tripling in value.
+  
+  **Obstacles:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
 
   - Python code: [`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
 
@@ -98,17 +98,19 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Future Improvements:** Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
    ### 📈📉 Alphabet Stock Evaluation
-  **Description:** Power BI dashboard provides a comprehensive, interactive analysis of GOOG stock's daily investment attractiveness over 20+ years, incorporating essential indicators and dynamic visualizations.
+  **Description:** This Power BI dashboard delivers a comprehensive, interactive analysis of Alphabet’s (GOOG) stock performance spanning over two decades. By combining long-term historical data with P/E, the tool is meant to be used for identifying market trends and investment potential over time.
 
-  **Obstacles:** P/E ratios had to be data scrapped and added manually
-
-  **Goal:** To create the graph with daily GOOG stock price, and combine it with 50-day moving average and a P/E ratio.
+  **Goal:** To construct a composite visualization that combines technical and fundamental analysis. The primary objective was to overlay the daily stock price with the 50-Day Moving Average and historical P/E Ratios to identify clear patterns of overvaluation or undervaluation.
+  
+  **Obstacles:** Historical valuation data (P/E ratio) was not readily available in standard stock datasets. To resolve this, I had to scrape it manually.
 
   - SQL Code: [`GOOG stock SQL`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
 
   - Power BI Dashboard: [`GOOG stock Power BI`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_bi.pbix)
 
-  **Results:** The Power BI dashboard leverages fundamental and technical indicators to empower informed investment decisions for GOOG stock.
+  **Results:** The final dashboard enables users to make informed decisions by showing the correlation between historical price and intrinsic value. It successfully highlights the best and the worst moments for the stock, allowing investors to see exactly how market sentiment aligns with company earnings and momentum trends.
+
+  **Future Improvements:** A specific API should be added to automate the web-scraping process.
 
   **Data Sources:** [Link to Kaggle](https://www.kaggle.com/datasets/henryshan/google-stock-price), [Link to macrotrends](https://www.macrotrends.net/stocks/charts/GOOG/alphabet/pe-ratio)
 # Contacts
