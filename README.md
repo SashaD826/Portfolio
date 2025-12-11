@@ -27,6 +27,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Results:** I implemented a string matching algorithm (fuzzy wuzzy library) to resolve title differences and handle user input errors effectively. The final application successfully normalizes the dataset and delivers a list of recommended books, ensuring a seamless user experience even with ambiguous inputs.
    
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
+  
 ### 🚲 Bike Sales Breakdown
   **Description:** This project involves a granular analysis of a bike store's order data over a one-month period. The dataset encompasses critical financial and operational metrics, including revenue, cost of goods sold, customer demographics, providing a detailed description of store operations.
   
