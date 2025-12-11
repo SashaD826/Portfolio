@@ -63,22 +63,6 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Future Improvements:** Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
   
- ### 🧑‍💻 IBM Employees Evaluation
- 
-  **Description:** This project conducts an analysis into IBM HR dataset, tracking varoius metrics of its employees, such as Job Satisfaction, Education Level, Hourly Rates, and Attrition status. The analysis seeks to understand the "Human" side of the data to better manage talent and resources.
-
-  **Goal:** To transform raw data into actionable HR insights. The objective is to determine the primary drivers of employee performance and satisfaction, and to find correlation or causation between given metrics.
-  
-  **Challenge:** Many critical metrics (e.g. Education, Job Satisfaction) were numerically encoded (indexed) without understandable labels. I had to reverse-engineer these indices to human-readable categories to ensure correct interpretation.
-
-  - SQL code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
-
-  - Power BI Dashboard: [`IBM Employees Power BI`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
-
-  **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
-  
-  **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
-  
  ### 💰🌎 The Global Tech Salary Tracker
  
   **Description:** This Power BI dashboard provides a comprehensive visualization of salary distributions across various positions in tech, depending on employment type, seniority level, and location. It aggregates compensation data to offer a clear view of global market rates.
@@ -128,6 +112,22 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Future Improvements:** A specific API should be added to automate the web-scraping process.
 
   **Data Sources:** [Link to Kaggle](https://www.kaggle.com/datasets/henryshan/google-stock-price), [Link to macrotrends](https://www.macrotrends.net/stocks/charts/GOOG/alphabet/pe-ratio)
+
+  ### 🧑‍💻 IBM Employees Evaluation
+ 
+  **Description:** This project conducts an analysis into IBM HR dataset, tracking varoius metrics of its employees, such as Job Satisfaction, Education Level, Hourly Rates, and Attrition status. The analysis seeks to understand the "Human" side of the data to better manage talent and resources.
+
+  **Goal:** To transform raw data into actionable HR insights. The objective is to determine the primary drivers of employee performance and satisfaction, and to find correlation or causation between given metrics.
+  
+  **Challenge:** Many critical metrics (e.g. Education, Job Satisfaction) were numerically encoded (indexed) without understandable labels. I had to reverse-engineer these indices to human-readable categories to ensure correct interpretation.
+
+  - SQL code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
+
+  - Power BI Dashboard: [`IBM Employees Power BI`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
+
+  **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
+  
+  **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
   
 # Contacts
 LinkedIn: https://www.linkedin.com/in/oleksandr-detsyk
