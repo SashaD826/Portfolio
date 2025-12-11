@@ -31,7 +31,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
 ### 🚲 Bike Sales Breakdown
 
-  **Description:** This project involves a granular analysis of a bike store's order data over a one-month period. The dataset encompasses critical financial and operational metrics, including revenue, cost of goods sold, customer demographics, providing a detailed description of store operations.
+  **Description:** This project involves a granular analysis of a bike store's order data over a one-month period. The dataset encompasses critical financial and operational metrics, including revenue, cost of goods sold, gross margin, customer demographics, providing a detailed description of store operations.
   
   **Goal:** To conduct an Exploratory Data Analysis (EDA) that describes store performance over time. The objective is to visualize crucial KPIs and identify opportunities to increase efficiency and revenue.
   
