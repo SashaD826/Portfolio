@@ -46,11 +46,11 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/ratnarohith/uncleaned-bike-sales-data/data)
  ### 🧑‍💻 IBM Employees Evaluation
-  **Description:** Dataset contains information about IBM Employees: their Job Satisfaction, Education Level, Hourly Rate, Experience, etc.
+  **Description:** This project conducts an analysis into IBM HR dataset, tracking varoius metrics of its employees, such as Job Satisfaction, Education Level, Hourly Rates, and Attrition status. The analysis seeks to understand the "Human" side of the data to better manage talent and resources.
 
-  **Goal:** To analyse IBM employees' performance, identify key trends to optimize workforce productivity.
+  **Goal:** To transform raw data into actionable HR insights. The objective is to determine the primary drivers of employee performance and satisfaction, and to find correlation or causation between given metrics.
   
-  **Challenge:** Complex Dataset, some columns are indexed, instead of containing readable data.
+  **Challenge:** Many critical metrics (e.g. Education, Job Satisfaction) were numerically encoded (indexed) without understandable labels. I had to reverse-engineer these indices to human-readable categories to ensure correct interpretation.
 
   - SQL code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
@@ -70,19 +70,21 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   - Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
-  **Results:** A Dashboard with key statistical indicators and multiple slicers that enables to compare jobs depending on employment type, company location, experience level or job title itself.
+  **Results:** The analysis uncovered distinct correlations between employee demographics (e.g. Age, Education) and their performance ratings. Power BI dashboard includes a visualization of productivity depends on each factor.
   
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/saurabhbadole/latest-data-science-job-salaries-2024)
-   ### 📊 Automated Portfolio Rebalancing
-  **Description:** This simple, but useful Python code helps with rebalancing the portfolio: calculates number of shares that has to be purchased, and the amount that has to be spent per position.
+   ### 📊 Tax-Efficient Portfolio Rebalancing Calculator
+  **Description:** A Python-based investment tool designed to automate the rebalancing of a stock portfolio while following strict tax-optimization constraints. The tool ingests data about portfolio composition and calculates the optimal purchasing strategy required to realign the portfolio with target asset allocations.
 
-  **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
+  **Goal:** To eliminate the manual error and time consumption associated with calculating weighted positions. The goal is to create a system where users can easily input current asset allocations and their target composition percentages, and the script mathematically derives the necessary execution orders.
    
-  **Challenge:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
+  **Challenge:** The core constraint is tax efficiency. The algorithm had to be designed as a "Buy-Only" rebalancing system, ensuring that no existing positions are sold to prevent loss due to the taxation of capital gains.
 
   - Python code: [`Portfolio Rebalancing Python`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
 
-  **Results:** Goal achieved, but to make the code even better API should be used to fully automate the process.
+  **Results:** The script successfully outputs a precise list of shares to purchase and the capital allocation per position.
+
+  **Future Improvements:** Plans to integrate with brokerage APIs to automate trade execution.
 
   **Data Source:** [Portfolio Composition CSV](https://github.com/SashaD826/Portfolio/blob/main/etf_portfolio_rebalancing.csv)
    ### 💻🔮💰 Monte Carlo Simulation for a Stock Portfolio
