@@ -16,6 +16,7 @@ I am Oleksandr, a data analyst with experience in data analytics and finance. I 
 It showcases my proficiency in data cleaning, predictive modeling, and financial forecasting, demonstrating my ability to transform raw data into meaningful insights. Each project reflects my skills in tracking KPIs, creating impactful visualizations, and developing simulations that improve business efficiency.
 
 ### 📕 Book Recommender
+
   **Description:** The Book Recommender is a Python-based application that generated a list of recommended books by analyzing statistical correlations between user preferences and an extensive database of book ratings. By processing parameters like title and author's name, the system identifies and retrieves title with the highest similarity coefficients to the user's input. The system handles errors for invalid inputs, incomplete book titles and typos.
    
   **Goal:** To create a robust, highly-tunable, user-friendly command-line tool that delivers personalized book recommendations based on a user's favorite book. 
@@ -29,6 +30,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
   
 ### 🚲 Bike Sales Breakdown
+
   **Description:** This project involves a granular analysis of a bike store's order data over a one-month period. The dataset encompasses critical financial and operational metrics, including revenue, cost of goods sold, customer demographics, providing a detailed description of store operations.
   
   **Goal:** To conduct an Exploratory Data Analysis (EDA) that describes store performance over time. The objective is to visualize crucial KPIs and identify opportunities to increase efficiency and revenue.
@@ -46,8 +48,23 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Results:** The final report shows crucial business intelligence insights, including revenue trends, a distribution analysis of order sizes (basket size), and revenue segmentation by weekday, region, and product category.
 
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/ratnarohith/uncleaned-bike-sales-data/data)
+
+  ### 💻🔮💰 Monte Carlo Simulation for a Stock Portfolio
+  
+  **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 unique simulation paths are generated.
+  
+  **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incurring loss vs. the probability of assets doubling or tripling in value.
+  
+  **Challenge:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
+
+  - Python code: [`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
+
+  **Result:** The mean (average) and median portfolio values are visualized using a line chart and a histogram, with the histogram illustrating the distribution of outcomes.
+  
+  **Future Improvements:** Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
   
  ### 🧑‍💻 IBM Employees Evaluation
+ 
   **Description:** This project conducts an analysis into IBM HR dataset, tracking varoius metrics of its employees, such as Job Satisfaction, Education Level, Hourly Rates, and Attrition status. The analysis seeks to understand the "Human" side of the data to better manage talent and resources.
 
   **Goal:** To transform raw data into actionable HR insights. The objective is to determine the primary drivers of employee performance and satisfaction, and to find correlation or causation between given metrics.
@@ -63,6 +80,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
   
  ### 💰🌎 The Global Tech Salary Tracker
+ 
   **Description:** This Power BI dashboard provides a comprehensive visualization of salary distributions across various positions in tech, depending on employment type, seniority level, and location. It aggregates compensation data to offer a clear view of global market rates.
   
   **Goal:** To conduct a statistical analysis of compensation data that serves two purposes: providing salary benchmarking for a substantial number of roles and acting as an Exploratory Data Analysis (EDA) foundation for future Machine Learning salary prediction models.
@@ -78,6 +96,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/saurabhbadole/latest-data-science-job-salaries-2024)
   
    ### 📊 Tax-Efficient Portfolio Rebalancing Calculator
+   
   **Description:** A Python-based investment tool designed to automate the rebalancing of a stock portfolio while following strict tax-optimization constraints. The tool ingests data about portfolio composition and calculates the optimal purchasing strategy required to realign the portfolio with target asset allocations.
 
   **Goal:** To eliminate the manual error and time consumption associated with calculating weighted positions. The goal is to create a system where users can easily input current asset allocations and their target composition percentages, and the script mathematically derives the necessary execution orders.
@@ -92,20 +111,8 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Data Source:** [Portfolio Composition CSV](https://github.com/SashaD826/Portfolio/blob/main/etf_portfolio_rebalancing.csv)
   
-   ### 💻🔮💰 Monte Carlo Simulation for a Stock Portfolio
-  **Description:** This Python script executes a Monte Carlo simulation, a stochastic model that accounts for the historical performance of selected assets, but also introduces volatility to simulate market unpredictability. 30000 unique simulation paths are generated.
-  
-  **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incurring loss vs. the probability of assets doubling or tripling in value.
-  
-  **Challenge:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
-
-  - Python code: [`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
-
-  **Result:** The mean (average) and median portfolio values are visualized using a line chart and a histogram, with the histogram illustrating the distribution of outcomes.
-  
-  **Future Improvements:** Planned updates include calculating the Sharpe ratio and adding an algorithm to determine optimal asset allocation.
-  
    ### 📈📉 Alphabet Stock Evaluation
+   
   **Description:** This Power BI dashboard delivers a comprehensive, interactive analysis of Alphabet’s (GOOG) stock performance spanning over two decades. By combining long-term historical data with P/E, the tool is meant to be used for identifying market trends and investment potential over time.
 
   **Goal:** To construct a composite visualization that combines technical and fundamental analysis. The primary objective was to overlay the daily stock price with the 50-Day Moving Average and historical P/E Ratios to identify clear patterns of overvaluation or undervaluation.
