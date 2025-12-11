@@ -16,7 +16,7 @@ I am Oleksandr, a data analyst with experience in data analytics and finance. I 
 It showcases my proficiency in data cleaning, predictive modeling, and financial forecasting, demonstrating my ability to transform raw data into meaningful insights. Each project reflects my skills in tracking KPIs, creating impactful visualizations, and developing simulations that improve business efficiency.
 
 ### 📕 Book Recommender
-  **Description:** The Book Recommender is a Python-based application that generated a list of recommended books by analyzing statistical correlations between user preferences and an extensive database of book ratings. By processing parameters like title, author, the system identifies and retrieves titles with the highest similarity coefficients to the user's input. The system handles errors for invalid inputs, incomplete book titles and typos.
+  **Description:** The Book Recommender is a Python-based application that generated a list of recommended books by analyzing statistical correlations between user preferences and an extensive database of book ratings. By processing parameters like title and author's name, the system identifies and retrieves titles with the highest similarity coefficients to the user's input. The system handles errors for invalid inputs, incomplete book titles and typos.
    
   **Goal:** To create a robust, highly-tunable, user-friendly command-line tool that delivers personalized book recommendations based on a user's favorite book. 
    
