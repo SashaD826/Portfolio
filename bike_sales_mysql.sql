@@ -1,4 +1,4 @@
-select * from bike_sales3
+SELECT * FROM bike_sales3
 
 /* Creating a new table, so I always have raw, original, unchanged data */
 CREATE TABLE `bike_sales2` (
@@ -25,12 +25,12 @@ CREATE TABLE `bike_sales2` (
   `MyUnknownColumn_[0]` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-insert into bike_sales2
-select * from bike_sales
+INSERT INTO bike_sales2
+SELECT * FROM bike_sales
 
 /* Changing a data type to date */
-Alter table bike_sales2
-modify column Date Date
+ALTER TABLE bike_sales2
+MODIFY column Date Date
 
 /* Updating missing values */
 UPDATE bike_sales2
@@ -45,36 +45,55 @@ UPDATE bike_sales2
 SET Unit_cost = '$1,252.00', Cost = '$2,504.00'
 WHERE order_id = '000261699'
 
-Alter table bike_sales2
+ALTER TABLE bike_sales2
 rename column `ï»¿Sales_Order #` to order_id
 
 /* Searching for Duplicates */
-with cte1 as (
-select *, row_number() over (partition by order_id, Date, Day, Month, Year, Customer_Age, Age_Group, Customer_Gender, Country, State, Product_Category, Sub_Category, Product_Description, Order_Quantity, Unit_Cost, Unit_Price, Profit, Cost, Revenue Order by order_id) as row_nmbr
-from bike_sales2
+WITH cte1 AS (
+SELECT *, row_number() OVER 
+    (PARTITION BY order_id, 
+    Date, 
+    Day, 
+    Month, 
+    Year, 
+    Customer_Age, 
+    Age_Group, 
+    Customer_Gender, 
+    Country, 
+    State, 
+    Product_Category, 
+    Sub_Category, 
+    Product_Description, 
+    Order_Quantity, 
+    Unit_Cost, 
+    Unit_Price, 
+    Profit, 
+    Cost, 
+    Revenue ORDER BY order_id) AS row_nmbr
+FROM bike_sales2
 )
-select order_id, row_nmbr from cte1
-where row_nmbr > 1
+SELECT order_id, row_nmbr FROM cte1
+WHERE row_nmbr > 1
 
 /* One duplicate was found, check the sum of orders */
-with cte2 as (
-Select order_id, count(*) as nmbr_order from bike_sales2
-group by order_id
+WITh cte2 AS (
+SELECT order_id, count(*) AS nmbr_order FROM bike_sales2
+GROUP BY order_id
 )
-select sum(nmbr_order) from cte2
+SELECT sum(nmbr_order) FROm cte2
 
 /* There was a typo in Order_id */
 UPDATE bike_sales2
 SET order_id = '000261696'
-WHERE order_id = '000261695' and Customer_Gender = 'M'
+WHERE order_id = '000261695' AND Customer_Gender = 'M'
 
 /* Deleting unknown empty columns */
-Alter table bike_sales2
-drop column `MyUnknownColumn`
-drop column `MyUnknownColumn_[0]`
+ALTER TABLE bike_sales2
+DROP column `MyUnknownColumn`
+DROP column `MyUnknownColumn_[0]`
 
-Select distinct product_description from bike_sales2
-order by product_description
+SELECT DISTINCT product_description FROM bike_sales2
+ORDER BY product_description
 
 /* One more typo */
 UPDATE bike_sales2
@@ -86,23 +105,23 @@ SET Country = 'United States'
 WHERE Country like '%United%States%'
 
 /* Make sure there are no numerical mistakes */
-with cte as (
-select order_id, Profit, Unit_price * Order_Quantity - Unit_Cost * Order_Quantity as profit2 from bike_sales3
+WITH cte AS (
+SELECT order_id, Profit, Unit_price * Order_Quantity - Unit_Cost * Order_Quantity as profit2 from bike_sales3
 )
-select order_id, profit from cte
-where profit = profit2
+SELECT order_id, profit FROM cte
+WHERE profit = profit2
 
-with cte as (
-select order_id, Cost, Unit_Cost * Order_Quantity as cost2 from bike_sales3
+WITH cte AS (
+SELECT order_id, Cost, Unit_Cost * Order_Quantity AS cost2 FROM bike_sales3
 )
-select order_id from cte
-where cost != cost2
+SELECT order_id FROM cte
+WHERE cost != cost2
 
-with cte as (
-select order_id, Revenue, Unit_price * Order_Quantity as revenue2 from bike_sales3
+WITH cte AS (
+SELECT order_id, Revenue, Unit_price * Order_Quantity AS revenue2 FROM bike_sales3
 )
-select order_id from cte
-where revenue != revenue2
+SELECT order_id FROM cte
+WHERE revenue != revenue2
 
 /* Creating a new table to get rid of the duplicate row */
 CREATE TABLE `bike_sales3` (
@@ -127,26 +146,26 @@ CREATE TABLE `bike_sales3` (
   `Revenue` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-insert into bike_sales3
-select distinct * from bike_sales2
+INSERT INTO bike_sales3
+SELECT DISTINCT * FROM bike_sales2
 
 /* One more duplicate check, just to be sure */ 
-with cte1 as (
-select *, row_number() over (partition by order_id, Date, Day, Month, Year, Customer_Age, Age_Group, Customer_Gender, Country, State, Product_Category, Sub_Category, Product_Description, Order_Quantity, Unit_Cost, Unit_Price, Profit, Cost, Revenue Order by order_id) as row_nmbr
-from bike_sales3
+WITH cte1 AS (
+SELECT *, row_number() OVER (PARTITION BY order_id, Date, Day, Month, Year, Customer_Age, Age_Group, Customer_Gender, Country, State, Product_Category, Sub_Category, Product_Description, Order_Quantity, Unit_Cost, Unit_Price, Profit, Cost, Revenue Order by order_id) as row_nmbr
+FROM bike_sales3
 )
-select order_id, row_nmbr from cte1
-where row_nmbr > 1
+SELECT order_id, row_nmbr FROM cte1
+WHERE row_nmbr > 1
 
-with cte2 as (
-Select order_id, count(*) as nmbr_order from bike_sales3
-group by order_id
+WITH cte2 AS (
+SELECT order_id, count(*) AS nmbr_order FROM bike_sales3
+GROUP BY order_id
 )
-select sum(nmbr_order) from cte2
+SELECT sum(nmbr_order) FROM cte2
 
-Update bike_sales3
-set Revenue = '$3,076.00'
-where order_id = '000261702'
+UPDATE bike_sales3
+SET Revenue = '$3,076.00'
+WHERE order_id = '000261702'
 
 /* Deleting unnecessary dollar symbol, so I can change data type to decimal */
 UPDATE bike_sales3
@@ -165,45 +184,51 @@ Cost = REPLACE(Cost, ',', ''),
 Revenue = REPLACE(Revenue, ',', '')
 
 /* Changing the data type */        
-Alter table bike_sales3
-modify column Unit_cost Decimal(10, 2),
-modify column Unit_price Decimal(10, 2),
-modify column Profit Decimal(10, 2),
-modify column Cost Decimal(10, 2),
-modify column Revenue Decimal(10, 2)
+ALTER TABLE bike_sales3
+MODIFY column Unit_cost Decimal(10, 2),
+MODIFY column Unit_price Decimal(10, 2),
+MODIFY column Profit Decimal(10, 2),
+MODIFY column Cost Decimal(10, 2),
+MODIFY column Revenue Decimal(10, 2)
 
-Update bike_sales3
-set Customer_gender = 'Male'
-where customer_gender = 'M'
+UPDATE bike_sales3
+SET Customer_gender = 'Male'
+WHERE customer_gender = 'M'
 
 
 /* Rolling Total, average Revenue per day */
-with cte as (
-Select Date, round(Sum(Revenue), 1) as revenue_per_day
-from bike_sales3
-group by Date
+WITH cte AS (
+SELECT Date, round(Sum(Revenue), 1) as revenue_per_day
+FROM bike_sales3
+GROUP BY Date
 )
-select Date, 
+SELECT Date, 
 revenue_per_day,
-round(avg(revenue_per_day) over (), 1) as avg_revenue_per_day,
-sum(revenue_per_day) over (order by date rows between unbounded preceding and current row) AS rolling_total
-from cte
-order by date
+round(avg(revenue_per_day) OVER (), 1) as avg_revenue_per_day,
+sum(revenue_per_day) OVER (ORDER BY DATE ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS rolling_total
+FROM cte
+ORDER BY date
 
 /* Revenue per Country */
-Select Country, round(avg(Revenue), 2) as avg_order_revenue, round(100 * Sum(revenue)/ sum(sum(Revenue)) over (), 2) as revenue_percentage from bike_sales3
-Group by Country
-Order by revenue_percentage desc
+SELECT Country, 
+        round(avg(Revenue), 2) AS avg_order_revenue, 
+        round(100 * Sum(revenue)/ sum(sum(Revenue)) OVER (), 2) AS revenue_percentage 
+FROM bike_sales3
+GROUP BY 1
+ORDER BY revenue_percentage DESC
 
 /* Revenue by Age Group */
-Select Age_Group, round(avg(Revenue), 2) as avg_order_revenue, round(100 * Sum(Revenue)/ sum(sum(Revenue)) over (), 2) as revenue_percentage from bike_sales3
-Group by Age_Group
-Order by revenue_percentage desc
+SELECT Age_Group, 
+        round(avg(Revenue), 2) AS avg_order_revenue, 
+        round(100 * Sum(Revenue)/ sum(sum(Revenue)) OVER (), 2) AS revenue_percentage 
+FROM bike_sales3
+GROUP BY 1
+ORDER BY revenue_percentage desc
 
 /* The most popular product*/ 
-Select Product_Description, 
-Count(Order_Quantity) as product_ordered
-from bike_sales3
-Where Product_Description is not null
-Group by Product_Description
-Order by product_ordered desc
+SELECT Product_Description, 
+Count(Order_Quantity) AS product_ordered
+FROM bike_sales3
+WHERE Product_Description IS NOT NULL
+GROUP BY 1
+ORDER BY product_ordered DESC
