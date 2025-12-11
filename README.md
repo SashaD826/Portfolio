@@ -23,7 +23,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    
   **Challenge:** The primary obstacle was data inconsistency within the large dataset. Multiple variations of the same book title (e.g., "The Lord of the Rings Part I" vs. "The Lord of the Rings: The Fellowship of the Ring") threatened the accuracy of the correlation matrix.
 
-   - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
+   - [`Python code`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
    
   **Results:** I implemented a string matching algorithm (fuzzy wuzzy library) to resolve title differences and handle user input errors effectively. The final application successfully normalizes the dataset and delivers a list of recommended books, ensuring a seamless user experience even with ambiguous inputs.
    
