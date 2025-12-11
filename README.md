@@ -41,7 +41,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   - [`Python Code`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales.ipynb)
   
-  - [`Excel File`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_data.xlsx)
+  - [`Excel Spreadsheet`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_data.xlsx)
   
   - [`Power BI Dashboard`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_bi.pbix)
 
@@ -123,7 +123,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   - [`SQL Code`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
-  - [`IBM Employees Power BI Dashboard`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
+  - [`Power BI Dashboard`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
 
   **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
   
