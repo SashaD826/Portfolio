@@ -20,7 +20,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    
   **Goal:** A user-friendly Python application that delivers personalized book recommendations based on a user's favorite book. The highly tunable system features robust error handling for invalid inputs.
    
-  **Obstacles:** The dataset is relatively large, the same book can have variations in its book titles.
+  **Challenge:** The dataset is relatively large, the same book can have variations in its book titles.
 
    - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
    
@@ -32,7 +32,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Goal:** To analyse the sales history of the store and extract insights on its performance, show crucial KPIs, search for potential improvements.
   
-  **Obstacles:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
+  **Challenge:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
   
   - SQL code: [`Bike Sales SQl`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_mysql.sql)
   
@@ -50,7 +50,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To analyse IBM employees' performance, identify key trends to optimize workforce productivity.
   
-  **Obstacles:** Complex Dataset, some columns are indexed, instead of containing readable data.
+  **Challenge:** Complex Dataset, some columns are indexed, instead of containing readable data.
 
   - SQL code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
@@ -64,7 +64,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To get statistical data for multiples positions. Can be used for Machine Learning, for example.
   
-  **Obstacles:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
+  **Challenge:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the complex data.
 
   - Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
 
@@ -78,7 +78,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To automate the process to make it more effective. Just import the file, set the composition thresholds and code will do all the work.
    
-  **Obstacles:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
+  **Challenge:** For the purpose of tax optimization, no shares can be sold, only buying is allowed.
 
   - Python code: [`Portfolio Rebalancing Python`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
 
@@ -90,7 +90,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Goal:** To forecast the potential value of the portfolio over a 10-year period. To calculate the probability of incurring loss vs. the probability of assets doubling or tripling in value.
   
-  **Obstacles:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
+  **Challenge:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
 
   - Python code: [`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
 
@@ -102,7 +102,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
 
   **Goal:** To construct a composite visualization that combines technical and fundamental analysis. The primary objective was to overlay the daily stock price with the 50-Day Moving Average and historical P/E Ratios to identify clear patterns of overvaluation or undervaluation.
   
-  **Obstacles:** Historical valuation data (P/E ratio) was not readily available in standard stock datasets. To resolve this, I had to scrape it manually.
+  **Challenge:** Historical valuation data (P/E ratio) was not readily available in standard stock datasets. To resolve this, I had to scrape it manually.
 
   - SQL Code: [`GOOG stock SQL`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
 
