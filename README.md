@@ -28,11 +28,11 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
 ### 🚲 Bike Sales Breakdown
-  **Description:** The dataset captures detailed sales data from a bike store over a one-month period, encompassing key metrics such as product descriptions, revenue, profits, production cost, customer details and transaction dates.
+  **Description:** This project involves a granular analysis of a bike store's order data over a one-month period. The dataset encompasses critical financial and operational metrics, including revenue, cost of goods sold, customer demographics, providing a detailed description of store operations.
   
-  **Goal:** To analyse the sales history of the store and extract insights on its performance, show crucial KPIs, search for potential improvements.
+  **Goal:** To conduct an Exploratory Data Analysis (EDA) that describes store performance. The objective is to visualize crucial KPIs and identify opportunities to increase efficiency and revenue.
   
-  **Challenge:** The dataset requires targeted data cleaning to ensure accuracy and usability, including handling missing values, standardizing product descriptions, and correcting inconsistencies in transaction dates or sales figures. 
+  **Challenge:** The raw data presented certain data quality issues, including duplicates, missing values, inconsistent product descriptions, missing and incorrect numeric values.
   
   - SQL code: [`Bike Sales SQl`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_mysql.sql)
   
@@ -42,7 +42,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   - Power BI Dashboard: [`Bike Sales Power BI`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_bi.pbix)
 
-  **Results:** Key data to optimize efficiency, including revenue trend over time, a histogram of typical order sizes, and detailed breakdowns by week day, country, region, and product.
+  **Results:** The final report shows crucial business intelligence insights, including revenue trends, a distribution analysis of order sizes (basket size), and revenue segmentation by weekday, region, and product category.
 
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/ratnarohith/uncleaned-bike-sales-data/data)
  ### 🧑‍💻 IBM Employees Evaluation
