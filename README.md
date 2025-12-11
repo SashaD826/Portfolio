@@ -23,7 +23,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    
   **Challenge:** The primary obstacle was data inconsistency within the large dataset. Multiple variations of the same book title (e.g., "The Lord of the Rings Part I" vs. "The Lord of the Rings: The Fellowship of the Ring") threatened the accuracy of the correlation matrix.
 
-   - [`Python code`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
+   - [`Python Code`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
    
   **Results:** I implemented a string matching algorithm (fuzzy wuzzy library) to resolve title differences and handle user input errors effectively. The final application successfully normalizes the dataset and delivers a list of recommended books, ensuring a seamless user experience even with ambiguous inputs.
    
@@ -37,13 +37,13 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Challenge:** The raw data presented certain data quality issues, including duplicates, missing values, inconsistent product descriptions, missing and incorrect numeric values.
   
-  - SQL code: [`Bike Sales SQl`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_mysql.sql)
+  - [`SQL Code`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_mysql.sql)
   
-  - Python code: [`Bike Sales Python`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales.ipynb)
+  - [`Python Code`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales.ipynb)
   
-  - Excel Worksheet: [`Bike Sales Excel`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_data.xlsx)
+  - [`Excel File`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_data.xlsx)
   
-  - Power BI Dashboard: [`Bike Sales Power BI`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_bi.pbix)
+  - [`Power BI Dashboard`](https://github.com/SashaD826/Portfolio/blob/main/bike_sales_bi.pbix)
 
   **Results:** The final report shows crucial business intelligence insights, including revenue trends, a distribution analysis of order sizes (basket size), and revenue segmentation by weekday, region, and product category.
 
@@ -57,7 +57,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Challenge:** Prices of non-US assets have to be converted to USD. The model performs daily rebalancing to maintain constant asset weights over the ten-year period. While this simplifies the model, it provides a more consistent baseline for modeling than allowing asset allocation to drift.
 
-  - Python code: [`Monte Carlo Simulation Python`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
+  - [`Python Code`](https://github.com/SashaD826/Portfolio/blob/main/monte_carlo_sim.ipynb)
 
   **Result:** The mean (average) and median portfolio values are visualized using a line chart and a histogram, with the histogram illustrating the distribution of outcomes.
   
@@ -71,9 +71,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Challenge:** The dataset is vast, requiring careful handling as values cannot be directly compared without segmentation. Implementing slicers enables precise filtering and meaningful comparisons, ensuring accurate insights from the data.
 
-  - Python Code: [`IT Salaries Python`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
+  - [`Python Code`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries.ipynb)
 
-  - Power BI Dashboard: [`IT Salaries Power BI`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
+  - [`Power BI Dashboard`](https://github.com/SashaD826/Portfolio/blob/main/it_salaries_bi.pbix)
 
   **Results:** The dashboard successfully normalizes ingested data, allowing users to identify clear salary trends. It uncovers pay differences based on multiple factors, providing statistically significant insights for market research.
   
@@ -87,7 +87,7 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
    
   **Challenge:** The core constraint is tax efficiency. The algorithm had to be designed as a "Buy-Only" rebalancing system, ensuring that no existing positions are sold to prevent loss due to the taxation of capital gains.
 
-  - Python code: [`Portfolio Rebalancing Python`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
+  - [`Python Code`](https://github.com/SashaD826/Portfolio/blob/main/portfolio_rebalancing.ipynb)
 
   **Results:** The script successfully outputs a precise list of shares to purchase and the capital allocation per position.
 
@@ -103,9 +103,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Challenge:** Historical valuation data (P/E ratio) was not readily available in standard stock datasets. To resolve the problem, I had to scrape it manually.
 
-  - SQL Code: [`GOOG stock SQL`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
+  - [`SQL Code`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_postgres.sql)
 
-  - Power BI Dashboard: [`GOOG stock Power BI`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_bi.pbix)
+  - [`Power BI Dashboard`](https://github.com/SashaD826/Portfolio/blob/main/goog_stock_bi.pbix)
 
   **Results:** The final dashboard enables users to make informed decisions by showing the correlation between historical price and intrinsic value. It successfully highlights the best and the worst moments for the stock, allowing investors to see exactly how market sentiment aligns with company earnings and momentum trends.
 
@@ -121,9 +121,9 @@ It showcases my proficiency in data cleaning, predictive modeling, and financial
   
   **Challenge:** Many critical metrics (e.g. Education, Job Satisfaction) were numerically encoded (indexed) without understandable labels. I had to reverse-engineer these indices to human-readable categories to ensure correct interpretation.
 
-  - SQL code: [`IBM Employees SQL`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
+  - [`SQL Code`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_mysql.sql)
 
-  - Power BI Dashboard: [`IBM Employees Power BI`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
+  - [`IBM Employees Power BI Dashboard`](https://github.com/SashaD826/Portfolio/blob/main/ibm_employees_bi.pbix)
 
   **Results:** Crucial data about employees. Trends of their performance depending on age, education, experience.
   
