@@ -16,15 +16,15 @@ I am Oleksandr, a data analyst with experience in data analytics and finance. I 
 It showcases my proficiency in data cleaning, predictive modeling, and financial forecasting, demonstrating my ability to transform raw data into meaningful insights. Each project reflects my skills in tracking KPIs, creating impactful visualizations, and developing simulations that improve business efficiency.
 
 ### 📕 Book Recommender
-  **Description:** The Book Recommender is a Python-based application that suggests books based on a user's favorite book, using a relatively large database of books and their ratings. It analyzes book attributes like title, author and returns a list of recommended books that were chosen according to their correlation with the user's favorite book. The system handles errors for invalid inputs, incomplete book titles and typos.
+  **Description:** The Book Recommender is a Python-based application that generated a list of recommended books by analyzing statistical correlations between user preferences and an extensive database of book ratings. By processing parameters like title, author, the system identifies and retrieves titles with the highest similarity coefficients to the user's input. The system handles errors for invalid inputs, incomplete book titles and typos.
    
-  **Goal:** A user-friendly Python application that delivers personalized book recommendations based on a user's favorite book. The highly tunable system features robust error handling for invalid inputs.
+  **Goal:** To create a robust, highly-tunable, user-friendly command-line tool that delivers personalized book recommendations based on a user's favorite book. 
    
-  **Challenge:** The dataset is relatively large, the same book can have variations in its book titles.
+  **Challenge:** The primary obstacle was data inconsistency within the large dataset. Multiple variations of the same book title (e.g., "The Lord of the Rings Part I" vs. "The Lord of the Rings: The Fellowship of the Ring") threatened the accuracy of the correlation matrix.
 
    - Python code: [`Book Recommender`](https://github.com/SashaD826/Portfolio/blob/main/book_recommender2.ipynb)
    
-  **Results:** A user-friendly application that recommends books to a users according to his preferences.
+  **Results:** I implemented a string matching algorithm (fuzzy wuzzy library) to resolve title differences and handle user input errors effectively. The final application successfully normalizes the dataset and delivers a list of recommended books, ensuring a seamless user experience even with ambiguous inputs.
    
   **Data Source:** [Link to Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)
 ### 🚲 Bike Sales Breakdown
